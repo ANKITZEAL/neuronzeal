@@ -1,5 +1,5 @@
 
-
+import numpy as np
 
 
 class Perceptron:
@@ -37,7 +37,7 @@ class Perceptron:
 
   def predict(self, X):
     X_with_bias = np.c_[X, -np.ones((len(X), 1))]
-    return self.activationFunction(X_with_bias, self.weights)clear
+    return self.activationFunction(X_with_bias, self.weights)
 
   def total_loss(self):
     total_loss = np.sum(self.error)
