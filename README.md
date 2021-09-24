@@ -44,4 +44,16 @@ git add . && git commit -m "docstring updated" && git push origin main
     save_model(model,filename=filename)
     save_plot(df,plotFileName,model)
 ```
->
+>## dataset
+x1 | x2 | y
+-|-|-
+0|0|0
+0|1|0
+1|0|0
+1|1|1                                                                                                1
+
+   
+
+###
+* point 1 
+* point 2
